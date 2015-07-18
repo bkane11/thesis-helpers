@@ -60,7 +60,5 @@ function makelinegraph(date, xn, yn){
       .attr("class", "line")
       .attr("d", line);
 
-  console.log(svg);
-
   return svg
 }
